@@ -1,0 +1,14 @@
+elemento,reproducible,cuenta_en_veredicto,detalle
+datos de entrada,True,True,idéntica (máx. dif. numérica 0.0e+00)
+entorno (informativo),True,False,idéntico
+hiperparametros,True,True,idéntica (máx. dif. numérica 0.0e+00)
+predicciones,True,True,idéntica (máx. dif. numérica 0.0e+00)
+resumen,True,True,idéntica (máx. dif. numérica 0.0e+00)
+mcs,True,True,idéntica (máx. dif. numérica 0.0e+00)
+shap,True,True,idéntica (máx. dif. numérica 0.0e+00)
+robustez,True,True,idéntica (máx. dif. numérica 0.0e+00)
+permutacion,True,True,idéntica (máx. dif. numérica 0.0e+00)
+contratos,True,True,idéntica (máx. dif. numérica 0.0e+00)
+descriptivos,True,True,idéntica (máx. dif. numérica 0.0e+00)
+episodios,True,True,idéntica (máx. dif. numérica 0.0e+00)
+busqueda_dos_fases,True,True,idéntica (máx. dif. numérica 0.0e+00)

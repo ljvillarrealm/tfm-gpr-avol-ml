@@ -1,0 +1,14 @@
+elemento,reproducible,cuenta_en_veredicto,detalle
+datos de entrada,True,True,idéntica (máx. dif. numérica 0.0e+00)
+entorno (informativo),False,False,"diferencias: {'python': ('3.11.15', '3.14.7'), 'sistema': ('Windows-10-10.0.26300-SP0', 'Windows-11-10.0.26300-SP0'), 'numpy': ('2.4.6', '2.5.3'), 'pandas': ('3.0.5', '3.0.6'), 'scikit-learn': ('1.9.0', '1.9.1'), 'scipy': ('1.17.1', '1.18.1'), 'shap': ('0.51.0', '0.53.0')}"
+hiperparametros,True,True,idéntica (máx. dif. numérica 0.0e+00)
+predicciones,True,True,idéntica (máx. dif. numérica 0.0e+00)
+resumen,True,True,idéntica (máx. dif. numérica 0.0e+00)
+mcs,True,True,idéntica (máx. dif. numérica 0.0e+00)
+shap,True,True,idéntica (máx. dif. numérica 0.0e+00)
+robustez,True,True,idéntica (máx. dif. numérica 0.0e+00)
+permutacion,True,True,idéntica (máx. dif. numérica 0.0e+00)
+contratos,True,True,idéntica (máx. dif. numérica 3.4e-21)
+descriptivos,True,True,idéntica (máx. dif. numérica 0.0e+00)
+episodios,True,True,idéntica (máx. dif. numérica 0.0e+00)
+busqueda_dos_fases,True,True,idéntica (máx. dif. numérica 0.0e+00)

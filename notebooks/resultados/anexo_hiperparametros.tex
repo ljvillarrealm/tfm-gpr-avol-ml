@@ -1,0 +1,38 @@
+\begin{longtable}{@{}lllp{0.5\textwidth}r@{}}
+\caption{Hiperparámetros del modelo principal de cada caso}\label{tab:anexo_hiperparametros}\\
+\toprule
+Caso & Modelo & Conj. & Hiperparámetros & QLIKE CV \\
+\midrule
+\endhead
+S\&P 500, mensual & SVR & F0 & $C$: $47{,}3$; $\varepsilon$: $1{,}19$; $\gamma$: $0{,}00167$ & 0,4095 \\
+S\&P 500, mensual & SVR & F1 & $C$: $47{,}3$; $\varepsilon$: $0{,}595$; $\gamma$: $0{,}000834$ & 0,4227 \\
+S\&P 500, mensual & SVR & F2 & $C$: $0{,}684$; $\varepsilon$: $0{,}0963$; $\gamma$: $0{,}00119$ & 0,4586 \\
+S\&P 500, semanal & SVR & F0 & $C$: $23{,}7$; $\varepsilon$: $1{,}19$; $\gamma$: $0{,}00167$ & 0,4700 \\
+S\&P 500, semanal & SVR & F1 & $C$: $23{,}7$; $\varepsilon$: $1{,}19$; $\gamma$: $0{,}00167$ & 0,4731 \\
+Brent, mensual & HAR & F0 & --- & 0,2571 \\
+Brent, mensual & HAR & F1 & --- & 0,2574 \\
+Brent, mensual & HAR & F2 & --- & 0,3006 \\
+Brent, semanal & HAR & F0 & --- & 0,4068 \\
+Brent, semanal & HAR & F1 & --- & 0,4063 \\
+WTI, mensual & SVR & F0 & $C$: $18{,}9$; $\varepsilon$: $0{,}104$; $\gamma$: $0{,}0182$ & 0,3200 \\
+WTI, mensual & SVR & F1 & $C$: $2{,}74$; $\varepsilon$: $0{,}0482$; $\gamma$: $0{,}000596$ & 0,3360 \\
+WTI, mensual & SVR & F2 & $C$: $2{,}74$; $\varepsilon$: $0{,}0963$; $\gamma$: $0{,}000596$ & 0,3710 \\
+WTI, semanal & HAR & F0 & --- & 0,4339 \\
+WTI, semanal & HAR & F1 & --- & 0,4355 \\
+Oro, mensual & SVR & F0 & $C$: $23{,}7$; $\varepsilon$: $0{,}595$; $\gamma$: $0{,}00334$ & 0,2256 \\
+Oro, mensual & SVR & F1 & $C$: $23{,}7$; $\varepsilon$: $0{,}595$; $\gamma$: $0{,}00334$ & 0,2148 \\
+Oro, mensual & SVR & F2 & $C$: $1{,}09$; $\varepsilon$: $0{,}32$; $\gamma$: $0{,}00199$ & 0,2502 \\
+Oro, semanal & SVR & F0 & $C$: $23{,}7$; $\varepsilon$: $0{,}595$; $\gamma$: $0{,}00167$ & 0,3873 \\
+Oro, semanal & SVR & F1 & $C$: $3{,}91$; $\varepsilon$: $0{,}0114$; $\gamma$: $0{,}00294$ & 0,3853 \\
+Treasury 10a, mensual & SVR & F0 & $C$: $0{,}781$; $\varepsilon$: $0{,}0936$; $\gamma$: $0{,}0685$ & 0,1724 \\
+Treasury 10a, mensual & SVR & F1 & $C$: $23{,}7$; $\varepsilon$: $0{,}595$; $\gamma$: $0{,}00167$ & 0,1844 \\
+Treasury 10a, mensual & SVR & F2 & $C$: $1{,}09$; $\varepsilon$: $0{,}641$; $\gamma$: $0{,}00199$ & 0,1932 \\
+Treasury 10a, semanal & SVR & F0 & $C$: $4{,}66$; $\varepsilon$: $0{,}594$; $\gamma$: $0{,}0151$ & 0,3214 \\
+Treasury 10a, semanal & SVR & F1 & $C$: $5{,}49$; $\varepsilon$: $0{,}0577$; $\gamma$: $0{,}00155$ & 0,3243 \\
+Bitcoin, mensual & SVR & F0 & $C$: $2{,}74$; $\varepsilon$: $0{,}0482$; $\gamma$: $0{,}00119$ & 0,3750 \\
+Bitcoin, mensual & SVR & F1 & $C$: $0{,}0472$; $\varepsilon$: $0{,}0301$; $\gamma$: $0{,}0148$ & 0,4010 \\
+Bitcoin, mensual & SVR & F2 & $C$: $0{,}00222$; $\varepsilon$: $0{,}00591$; $\gamma$: $0{,}162$ & 0,4220 \\
+Bitcoin, semanal & Elastic Net & F0 & $\alpha$: $0{,}424$; L1: $0{,}074$ & 0,6217 \\
+Bitcoin, semanal & Elastic Net & F1 & $\alpha$: $0{,}174$; L1: $0{,}729$ & 0,6237 \\
+\bottomrule
+\end{longtable}

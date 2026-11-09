@@ -1,0 +1,13 @@
+caso,n_modelos,n_incluidos,incluidos,equivalentes,har_rv_incluido,algun_F0,algun_F1,algun_F2
+sp500_m,12,12,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost, F2_enet, F2_lineal, F2_svr, F2_xgboost",,True,True,True,True
+sp500_w,8,8,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost",,True,True,True,False
+oil_brent_m,12,12,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost, F2_enet, F2_lineal, F2_svr, F2_xgboost",,True,True,True,True
+oil_brent_w,8,6,"F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost",,False,True,True,False
+oil_wti_m,12,10,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost, F2_svr, F2_xgboost",,True,True,True,True
+oil_wti_w,8,7,"F0_enet, F0_lineal, F0_svr, F1_enet, F1_lineal, F1_svr, F1_xgboost",,True,True,True,False
+gold_xauusd_m,12,12,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost, F2_enet, F2_lineal, F2_svr, F2_xgboost",,True,True,True,True
+gold_xauusd_w,8,8,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost",,True,True,True,False
+us10y_m,12,9,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F2_enet, F2_lineal, F2_xgboost",,True,True,True,True
+us10y_w,8,8,"F0_enet, F0_lineal, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost",,True,True,True,False
+btc_m,12,2,"F1_lineal, F1_svr",,False,False,True,False
+btc_w,8,7,"F0_enet, F0_svr, F0_xgboost, F1_enet, F1_lineal, F1_svr, F1_xgboost",,False,True,True,False
